@@ -1,13 +1,13 @@
 # heatmappy
 Generate image heat maps in Python 
 
-# Install
+## Install
 
 `pip install heat-map`
 
-# Examples
+## Examples
 
-### Given some points (co-ordinates) and a base image
+#### Given some points (co-ordinates) and a base image
 
 ```python
 from heat_map.heatmap import Heatmapper, _asset_file
@@ -22,7 +22,7 @@ heatmapper.heatmap_on_img(example_points, example_img).save("out.png")
 ```
 ![area](examples/out.png?raw=true)
 
-# Heatmap config
+## Heatmap config
 
 The following options are available (shown with their default values):
 
@@ -39,17 +39,17 @@ heatmapper = Heatmapper(
 )
 ```
 
-## Provided colour schemes
+### Provided colour schemes
 
-### default
+#### default
 
 ![default colour scheme](/heat_map/assets/default.png?raw=true)
 
-### reveal
+#### reveal
 
 ![reveal colour scheme](/heat_map/assets/reveal.png?raw=true)
 
 
-# License
+## License
 
 MIT License.
