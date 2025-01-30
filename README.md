@@ -1,4 +1,4 @@
-# heatmappy
+# heat-map
 Generate image heat maps in Python 
 
 ## Install
